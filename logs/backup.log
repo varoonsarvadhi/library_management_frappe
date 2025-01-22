@@ -1,0 +1,48 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_a14d13c03953c3ae --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a14d13c03953c3ae | /usr/bin/gzip >> ./library.localhost/private/backups/20250116_180003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-01-16 18:00:06.141833
+Config  : /home/varoon/library/sites/library.localhost/private/backups/20250116_180003-library_localhost-site_config_backup.json 181.0B
+Database: /home/varoon/library/sites/library.localhost/private/backups/20250116_180003-library_localhost-database.sql.gz 298.4KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a14d13c03953c3ae --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a14d13c03953c3ae | /usr/bin/gzip >> ./library.localhost/private/backups/20250117_120005-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-01-17 12:00:11.994299
+Config  : /home/varoon/library/sites/library.localhost/private/backups/20250117_120005-library_localhost-site_config_backup.json 181.0B
+Database: /home/varoon/library/sites/library.localhost/private/backups/20250117_120005-library_localhost-database.sql.gz 310.6KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a14d13c03953c3ae --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a14d13c03953c3ae | /usr/bin/gzip >> ./library.localhost/private/backups/20250117_180005-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-01-17 18:00:08.353957
+Config  : /home/varoon/library/sites/library.localhost/private/backups/20250117_180005-library_localhost-site_config_backup.json 181.0B
+Database: /home/varoon/library/sites/library.localhost/private/backups/20250117_180005-library_localhost-database.sql.gz 323.4KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a14d13c03953c3ae --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a14d13c03953c3ae | /usr/bin/gzip >> ./library.localhost/private/backups/20250118_120005-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-01-18 12:00:08.474579
+Config  : /home/varoon/library/sites/library.localhost/private/backups/20250118_120005-library_localhost-site_config_backup.json 181.0B
+Database: /home/varoon/library/sites/library.localhost/private/backups/20250118_120005-library_localhost-database.sql.gz 329.9KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a14d13c03953c3ae --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a14d13c03953c3ae | /usr/bin/gzip >> ./library.localhost/private/backups/20250120_120003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-01-20 12:00:05.786531
+Config  : /home/varoon/library/sites/library.localhost/private/backups/20250120_120003-library_localhost-site_config_backup.json 181.0B
+Database: /home/varoon/library/sites/library.localhost/private/backups/20250120_120003-library_localhost-database.sql.gz 346.9KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a14d13c03953c3ae --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a14d13c03953c3ae | /usr/bin/gzip >> ./library.localhost/private/backups/20250120_180004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-01-20 18:00:07.648185
+Config  : /home/varoon/library/sites/library.localhost/private/backups/20250120_180004-library_localhost-site_config_backup.json 181.0B
+Database: /home/varoon/library/sites/library.localhost/private/backups/20250120_180004-library_localhost-database.sql.gz 369.0KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a14d13c03953c3ae --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a14d13c03953c3ae | /usr/bin/gzip >> ./library.localhost/private/backups/20250121_120003-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-01-21 12:00:06.367507
+Config  : /home/varoon/library/sites/library.localhost/private/backups/20250121_120003-library_localhost-site_config_backup.json 181.0B
+Database: /home/varoon/library/sites/library.localhost/private/backups/20250121_120003-library_localhost-database.sql.gz 384.7KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a14d13c03953c3ae --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a14d13c03953c3ae | /usr/bin/gzip >> ./library.localhost/private/backups/20250121_180004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-01-21 18:00:07.737715
+Config  : /home/varoon/library/sites/library.localhost/private/backups/20250121_180004-library_localhost-site_config_backup.json 181.0B
+Database: /home/varoon/library/sites/library.localhost/private/backups/20250121_180004-library_localhost-database.sql.gz 386.0KiB
+Backup for Site library.localhost has been successfully completed

@@ -1,0 +1,853 @@
+2025-01-16 16:28:53,964 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Member","name":"new-library-member-muiajhgshv","__islocal":1,"__unsaved":1,"owner":"Administrator","section_break_2sb1":"Praharsh ","last_name":"Kavi ","email_address":"praharsh@gmail.com","phone":"8899167279"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-16 16:34:24,859 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Member","name":"new-library-member-platvotfbl","__islocal":1,"__unsaved":1,"owner":"Administrator","section_break_2sb1":"Praharsh ","last_name":"Kavi","email_address":"praharsh.sarvadhi@gmail.com","phone":"8866179289"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-16 17:22:29,105 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library_Member', 'with_parent': '1', 'cached_timestamp': '2025-01-16 16:59:24.003434', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-16 17:23:57,427 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library_Member', 'with_parent': '1', 'cached_timestamp': '2025-01-16 16:59:24.003434', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-16 17:24:36,624 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library_Member', 'with_parent': '1', 'cached_timestamp': '2025-01-16 16:59:24.003434', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-16 17:24:52,714 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'docs': '{"name":"Library_Member","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"naming_rule":"Expression (old style)","autoname":"LM.#####","allow_rename":1,"module":"Library Management","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","doctype":"DocType","permissions":[{"name":"g8077hmno9","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"Library_Member","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"fields":[{"name":"mghhc44ebq","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":1,"label":"First Name","fieldtype":"Data","fieldname":"first_name","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"iplvc2khl7","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":2,"label":"Last Name","fieldtype":"Data","fieldname":"last_name","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"n33h2l7ju0","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":3,"label":"Full Name","fieldtype":"Data","fieldname":"full_name","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":1,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"k6cc0gij6e","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":4,"label":"Email","fieldtype":"Data","fieldname":"email","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"options":"Email","sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"pegrcfbiib","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":5,"label":"Phone","fieldtype":"Data","fieldname":"phone","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"options":"Phone","sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"}],"links":[],"states":[],"actions":[],"__last_sync_on":"2025-01-16T11:54:52.419Z"}', 'method': 'check_pending_migration', 'cmd': 'run_doc_method'}
+2025-01-16 17:25:01,631 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library_Member', 'with_parent': '1', 'cached_timestamp': '2025-01-16 16:59:24.003434', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-16 18:00:05,676 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'docs': '{"name":"Library_Member","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":0,"read_only":0,"in_create":0,"naming_rule":"Expression (old style)","autoname":"LM.#####","allow_rename":1,"module":"Library Management","is_submittable":0,"istable":0,"issingle":0,"is_tree":0,"is_calendar_and_gantt":0,"editable_grid":0,"quick_entry":0,"track_changes":0,"track_seen":0,"track_views":0,"custom":0,"beta":0,"is_virtual":0,"queue_in_background":0,"max_attachments":0,"hide_toolbar":0,"allow_copy":0,"allow_import":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_title_field_in_link":0,"translated_doctype":0,"sort_field":"creation","sort_order":"DESC","force_re_route_to_default_view":0,"document_type":"","show_preview_popup":0,"show_name_in_global_search":0,"email_append_to":0,"has_web_view":0,"allow_guest_to_view":0,"index_web_pages_for_search":1,"engine":"InnoDB","doctype":"DocType","permissions":[{"name":"g8077hmno9","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","if_owner":0,"permlevel":0,"select":0,"read":1,"write":1,"create":1,"delete":1,"submit":0,"cancel":0,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"parent":"Library_Member","parentfield":"permissions","parenttype":"DocType","doctype":"DocPerm"}],"fields":[{"name":"mghhc44ebq","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":1,"label":"First Name","fieldtype":"Data","fieldname":"first_name","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"iplvc2khl7","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":2,"label":"Last Name","fieldtype":"Data","fieldname":"last_name","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"n33h2l7ju0","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":3,"label":"Full Name","fieldtype":"Data","fieldname":"full_name","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":1,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"k6cc0gij6e","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":4,"label":"Email","fieldtype":"Data","fieldname":"email","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"options":"Email","sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"},{"name":"pegrcfbiib","owner":"Administrator","creation":"2025-01-16 16:48:00.867135","modified":"2025-01-16 16:59:24.003434","modified_by":"Administrator","docstatus":0,"idx":5,"label":"Phone","fieldtype":"Data","fieldname":"phone","precision":"","length":0,"non_negative":0,"hide_days":0,"hide_seconds":0,"reqd":0,"is_virtual":0,"search_index":0,"not_nullable":0,"options":"Phone","sort_options":0,"show_dashboard":0,"fetch_if_empty":0,"hidden":0,"show_on_timeline":0,"bold":0,"allow_in_quick_entry":0,"translatable":0,"print_hide":0,"print_hide_if_no_value":0,"report_hide":0,"collapsible":0,"hide_border":0,"in_list_view":0,"in_standard_filter":0,"in_preview":0,"in_filter":0,"in_global_search":0,"read_only":0,"allow_on_submit":0,"ignore_user_permissions":0,"allow_bulk_edit":0,"make_attachment_public":0,"permlevel":0,"ignore_xss_filter":0,"unique":0,"no_copy":0,"set_only_once":0,"remember_last_selected_value":0,"columns":0,"parent":"Library_Member","parentfield":"fields","parenttype":"DocType","doctype":"DocField"}],"links":[],"states":[],"actions":[],"__last_sync_on":"2025-01-16T12:30:05.105Z"}', 'method': 'check_pending_migration', 'cmd': 'run_doc_method'}
+2025-01-17 09:45:24,358 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-17 09:46:02,161 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-17 09:46:21,357 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-17 09:47:12,986 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-17 11:59:47,742 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-17 12:00:04,351 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-17 12:01:40,514 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-17 12:05:08,272 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-17 12:05:40,689 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-17 12:06:04,332 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Membership', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-18 10:14:09,339 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'docctype': 'Issue Book', 'filters': '{"member":"Member00001","docstatus":1}', 'fields': '["name"]', 'cmd': 'frappe.client.get_list'}
+2025-01-18 10:36:57,341 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Issue Book', 'with_parent': '1', 'cached_timestamp': '2025-01-17 12:44:13.679065', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-18 11:10:46,797 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Issue Book', 'name': 'Issue00001', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-18 11:12:39,541 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Issue Book', 'name': 'Issue00001', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-18 11:12:48,887 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Issue Book', 'name': 'Issue00001', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-18 11:19:36,943 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Issue Book', 'name': 'Issue00001', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-18 11:37:51,348 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Issue Book', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-18 11:46:45,506 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Return Book', 'name': 'Return00001', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-18 12:04:26,456 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Return Book', 'name': 'Return00001', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-18 12:52:10,877 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Books","name":"new-books-iyrrxrtyag","__islocal":1,"__unsaved":1,"owner":"Administrator","times_issued":0,"book_details":[{"docstatus":0,"doctype":"Book Details","name":"new-book-details-wewsgtikiy","__islocal":1,"__unsaved":1,"owner":"Administrator","condition":"New","parent":"new-books-iyrrxrtyag","parentfield":"book_details","parenttype":"Books","idx":1,"__unedited":false,"edition":"1st","location":"shelf 1"}],"book_title":"the 5 am club","author":"Robin Sharma","rent_fee":200,"quantity":3}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-18 12:54:18,124 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Books","name":"new-books-iyrrxrtyag","__islocal":1,"__unsaved":1,"owner":"Administrator","times_issued":0,"book_details":[{"docstatus":0,"doctype":"Book Details","name":"new-book-details-wewsgtikiy","__islocal":1,"__unsaved":1,"owner":"Administrator","condition":"New","parent":"new-books-iyrrxrtyag","parentfield":"book_details","parenttype":"Books","idx":1,"__unedited":false,"edition":"1st","location":"shelf 1"}],"book_title":"the 5 am club","author":"Robin Sharma","rent_fee":200,"quantity":3}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-18 12:55:58,548 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Books","name":"new-books-fdmyeeyfzm","__islocal":1,"__unsaved":1,"owner":"Administrator","times_issued":0,"book_details":[{"docstatus":0,"doctype":"Book Details","name":"new-book-details-mklfqaqqbu","__islocal":1,"__unsaved":1,"owner":"Administrator","condition":"New","parent":"new-books-fdmyeeyfzm","parentfield":"book_details","parenttype":"Books","idx":1,"__unedited":false,"edition":"2nd","location":"shelf 2"}],"book_title":"The 5 am club","author":"Robin Sharma","rent_fee":200,"quantity":3}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-18 12:59:53,056 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Books', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-01-18 14:35:03,128 ERROR frappe Failed to run after request hook
+Site: library.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 98, in application
+    init_request(request)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 198, in init_request
+    frappe.local.http_request = HTTPRequest()
+  File "/home/varoon/library/apps/frappe/frappe/auth.py", line 42, in __init__
+    self.set_session()
+  File "/home/varoon/library/apps/frappe/frappe/auth.py", line 76, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/varoon/library/apps/frappe/frappe/auth.py", line 134, in __init__
+    self.make_session(resume=True)
+  File "/home/varoon/library/apps/frappe/frappe/auth.py", line 223, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 223, in __init__
+    self.resume()
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 302, in resume
+    data = self.get_session_record()
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 319, in get_session_record
+    r = self.get_session_data()
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 336, in get_session_data
+    data = self.get_session_data_from_db()
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 364, in get_session_data_from_db
+    .where(sessions.lastupdate > get_expired_threshold())
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 446, in get_expired_threshold
+    now = frappe.utils.now()
+  File "/home/varoon/library/apps/frappe/frappe/utils/data.py", line 413, in now
+    return now_datetime().strftime(DATETIME_FORMAT)
+  File "/home/varoon/library/apps/frappe/frappe/utils/data.py", line 362, in now_datetime
+    return datetime.datetime.now(ZoneInfo(get_system_timezone())).replace(tzinfo=None)
+  File "/home/varoon/library/apps/frappe/frappe/utils/data.py", line 379, in get_system_timezone
+    return frappe.get_system_settings("time_zone") or "Asia/Kolkata"  # Default to India ?!
+  File "/home/varoon/library/apps/frappe/frappe/core/doctype/system_settings/system_settings.py", line 230, in get_system_settings
+    system_settings = frappe.client_cache.get_doc("System Settings")
+  File "/home/varoon/library/apps/frappe/frappe/utils/redis_wrapper.py", line 548, in get_doc
+    return self.get_value(key, generator=lambda: frappe.get_doc(doctype, name))
+  File "/home/varoon/library/apps/frappe/frappe/utils/redis_wrapper.py", line 511, in get_value
+    val = generator()
+  File "/home/varoon/library/apps/frappe/frappe/utils/redis_wrapper.py", line 548, in <lambda>
+    return self.get_value(key, generator=lambda: frappe.get_doc(doctype, name))
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1290, in get_doc
+    return frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/model/utils/__init__.py", line 215, in wrapper
+    return dispatch(args[0])(*args, **kw)
+  File "/home/varoon/library/apps/frappe/frappe/model/document.py", line 88, in get_doc_str
+    controller = get_controller(doctype)
+  File "/home/varoon/library/apps/frappe/frappe/model/base_document.py", line 68, in get_controller
+    return import_controller(doctype)
+  File "/home/varoon/library/apps/frappe/frappe/model/base_document.py", line 90, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 9
+    doc_events = {
+IndentationError: unexpected indent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 135, in application
+    response = handle_exception(e)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 387, in handle_exception
+    ).render()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+  File "/home/varoon/library/apps/frappe/frappe/website/utils.py", line 532, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/error_page.py", line 17, in init_context
+    super().init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/varoon/library/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 9
+    doc_events = {
+IndentationError: unexpected indent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 149, in application
+    run_after_request_hooks(request, response)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 164, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 9
+    doc_events = {
+IndentationError: unexpected indent
+2025-01-18 14:40:48,379 ERROR frappe Failed to run after request hook
+Site: library.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 98, in application
+    init_request(request)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 198, in init_request
+    frappe.local.http_request = HTTPRequest()
+  File "/home/varoon/library/apps/frappe/frappe/auth.py", line 42, in __init__
+    self.set_session()
+  File "/home/varoon/library/apps/frappe/frappe/auth.py", line 76, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/varoon/library/apps/frappe/frappe/auth.py", line 134, in __init__
+    self.make_session(resume=True)
+  File "/home/varoon/library/apps/frappe/frappe/auth.py", line 223, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 223, in __init__
+    self.resume()
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 302, in resume
+    data = self.get_session_record()
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 319, in get_session_record
+    r = self.get_session_data()
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 336, in get_session_data
+    data = self.get_session_data_from_db()
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 364, in get_session_data_from_db
+    .where(sessions.lastupdate > get_expired_threshold())
+  File "/home/varoon/library/apps/frappe/frappe/sessions.py", line 446, in get_expired_threshold
+    now = frappe.utils.now()
+  File "/home/varoon/library/apps/frappe/frappe/utils/data.py", line 413, in now
+    return now_datetime().strftime(DATETIME_FORMAT)
+  File "/home/varoon/library/apps/frappe/frappe/utils/data.py", line 362, in now_datetime
+    return datetime.datetime.now(ZoneInfo(get_system_timezone())).replace(tzinfo=None)
+  File "/home/varoon/library/apps/frappe/frappe/utils/data.py", line 379, in get_system_timezone
+    return frappe.get_system_settings("time_zone") or "Asia/Kolkata"  # Default to India ?!
+  File "/home/varoon/library/apps/frappe/frappe/core/doctype/system_settings/system_settings.py", line 230, in get_system_settings
+    system_settings = frappe.client_cache.get_doc("System Settings")
+  File "/home/varoon/library/apps/frappe/frappe/utils/redis_wrapper.py", line 548, in get_doc
+    return self.get_value(key, generator=lambda: frappe.get_doc(doctype, name))
+  File "/home/varoon/library/apps/frappe/frappe/utils/redis_wrapper.py", line 511, in get_value
+    val = generator()
+  File "/home/varoon/library/apps/frappe/frappe/utils/redis_wrapper.py", line 548, in <lambda>
+    return self.get_value(key, generator=lambda: frappe.get_doc(doctype, name))
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1290, in get_doc
+    return frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/model/utils/__init__.py", line 215, in wrapper
+    return dispatch(args[0])(*args, **kw)
+  File "/home/varoon/library/apps/frappe/frappe/model/document.py", line 88, in get_doc_str
+    controller = get_controller(doctype)
+  File "/home/varoon/library/apps/frappe/frappe/model/base_document.py", line 68, in get_controller
+    return import_controller(doctype)
+  File "/home/varoon/library/apps/frappe/frappe/model/base_document.py", line 90, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 10
+    "Issue_book": {
+                  
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 135, in application
+    response = handle_exception(e)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 387, in handle_exception
+    ).render()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+  File "/home/varoon/library/apps/frappe/frappe/website/utils.py", line 532, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/error_page.py", line 17, in init_context
+    super().init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/varoon/library/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 10
+    "Issue_book": {
+                  
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 149, in application
+    run_after_request_hooks(request, response)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 164, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 10
+    "Issue_book": {
+                  
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2025-01-20 09:37:17,239 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Return Book","name":"new-return-book-rsgdkznpdu","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Returned","member":"Member00002","book_title":"the personal mba","author":"jooseph","rent_fee":100,"book":"Book00002","return_date":"2025-01-21"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 10:21:33,554 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Return Book","name":"new-return-book-vjfyzyxeys","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Returned","member":"Member00001","book_title":"The 5 am Club","author":"Robin Sharma","rent_fee":100,"book":"Book00001","return_date":"2025-01-22"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 10:22:10,590 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Return Book","name":"new-return-book-wbewitweff","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Returned","member":"Member00001","book_title":"The 5 am Club","author":"Robin Sharma","rent_fee":100,"book":"Book00001","return_date":"2025-01-23"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 10:26:33,705 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Return Book","name":"new-return-book-sfvjgccymu","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Returned","member":"Member00001","book_title":"The 5 am Club","author":"Robin Sharma","rent_fee":100,"book":"Book00001","return_date":"2025-01-22"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 17:24:03,864 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'DocType', 'old': 'Issued Books', 'new': 'Issued_Book', 'merge': '0', 'cmd': 'frappe.rename_doc'}
+2025-01-20 17:36:15,835 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Issue Book","name":"new-issue-book-hegvzxrgzd","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","book_title":"It Ends with Us","author":"Coleen Hoveer","book":"Book00005","member":"Member00002","issue_date":"2025-01-20"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 17:37:46,718 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Issue Book","name":"new-issue-book-hegvzxrgzd","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","book_title":"It Ends with Us","author":"Coleen Hoveer","book":"Book00005","member":"Member00002","issue_date":"2025-01-20"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 17:40:33,555 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Issue Book","name":"new-issue-book-zacddlauyg","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","book_title":"It Ends with Us","author":"Coleen Hoveer","book":"Book00005","member":"Member00002","issue_date":"2025-01-20"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 17:44:27,370 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Member","name":"new-member-wvgklqvqlk","__islocal":1,"__unsaved":1,"owner":"Administrator","books_issued":0,"outstanding_debt":0,"issued_books":[],"member_name":"Praharsh Kavi","date":"2025-01-20","email":"praharsh@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 17:44:51,833 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Member","name":"new-member-wvgklqvqlk","__islocal":1,"__unsaved":1,"owner":"Administrator","books_issued":0,"outstanding_debt":0,"issued_books":[],"member_name":"Praharsh Kavi","date":"2025-01-20","email":"praharsh@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 17:47:45,065 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Issue Book","name":"new-issue-book-hegvzxrgzd","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","book_title":"It Ends with Us","author":"Coleen Hoveer","book":"Book00005","member":"Member00002","issue_date":"2025-01-20"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 17:48:12,120 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Issue Book","name":"new-issue-book-hegvzxrgzd","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","book_title":"It Ends with Us","author":"Coleen Hoveer","book":"Book00005","member":"Member00002","issue_date":"2025-01-20"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 17:48:32,752 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Issue Book","name":"new-issue-book-yzjzxfoyeo","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Issued","book_title":"It Ends with Us","author":"Coleen Hoveer","book":"Book00005","member":"Member00002","issue_date":"2025-01-21"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-20 18:09:32,965 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Member","name":"new-member-micfzmvinz","__islocal":1,"__unsaved":1,"owner":"Administrator","books_issued":0,"outstanding_debt":0,"issued_books":[],"member_name":"jeel kikani","date":"2025-01-20","email":"jeel@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-01-21 09:32:58,709 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Member', 'name': 'Member00004', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-21 09:35:37,068 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Member', 'name': 'Member00004', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-21 09:36:42,774 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Member', 'name': 'Member00004', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-21 09:38:58,212 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Member', 'name': 'Member00004', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-21 09:42:25,651 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Member', 'name': 'Member00004', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-01-21 09:51:48,471 ERROR frappe Failed to run after request hook
+Site: library.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 98, in application
+    init_request(request)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 200, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 13
+    "Return_book": {
+                   
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 135, in application
+    response = handle_exception(e)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 387, in handle_exception
+    ).render()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+  File "/home/varoon/library/apps/frappe/frappe/website/utils.py", line 532, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/error_page.py", line 17, in init_context
+    super().init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/varoon/library/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 13
+    "Return_book": {
+                   
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 149, in application
+    run_after_request_hooks(request, response)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 164, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 13
+    "Return_book": {
+                   
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2025-01-21 09:52:05,830 ERROR frappe Failed to run after request hook
+Site: library.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 98, in application
+    init_request(request)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 200, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 13
+    "Return_book": {
+                   
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 135, in application
+    response = handle_exception(e)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 387, in handle_exception
+    ).render()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+  File "/home/varoon/library/apps/frappe/frappe/website/utils.py", line 532, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/error_page.py", line 17, in init_context
+    super().init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/varoon/library/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 13
+    "Return_book": {
+                   
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 149, in application
+    run_after_request_hooks(request, response)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 164, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 13
+    "Return_book": {
+                   
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2025-01-21 09:52:05,845 ERROR frappe Failed to run after request hook
+Site: library.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 98, in application
+    init_request(request)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 200, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 13
+    "Return_book": {
+                   
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 135, in application
+    response = handle_exception(e)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 387, in handle_exception
+    ).render()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+  File "/home/varoon/library/apps/frappe/frappe/website/utils.py", line 532, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/error_page.py", line 17, in init_context
+    super().init_context()
+  File "/home/varoon/library/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/varoon/library/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 13
+    "Return_book": {
+                   
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 61, in wrapper
+    return _cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 149, in application
+    run_after_request_hooks(request, response)
+  File "/home/varoon/library/apps/frappe/frappe/app.py", line 164, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1598, in get_hooks
+    hooks = _load_app_hooks()
+  File "/home/varoon/library/apps/frappe/frappe/utils/caching.py", line 63, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1567, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/varoon/library/apps/frappe/frappe/__init__.py", line 1433, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/varoon/library/apps/library_management/library_management/hooks.py", line 13
+    "Return_book": {
+                   
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2025-01-21 09:53:01,309 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Member', 'name': 'Member00004', 'cmd': 'frappe.desk.form.load.getdoc'}

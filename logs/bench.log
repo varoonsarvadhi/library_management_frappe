@@ -1,0 +1,389 @@
+2025-01-16 14:59:56,739 DEBUG cd library && python3 -m venv env
+2025-01-16 15:00:04,965 DEBUG cd library && /home/varoon/library/env/bin/python -m pip install --quiet --upgrade pip
+2025-01-16 15:00:10,306 DEBUG cd library && /home/varoon/library/env/bin/python -m pip install --quiet wheel
+2025-01-16 15:00:12,942 LOG Getting frappe
+2025-01-16 15:00:12,942 DEBUG cd library/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-01-16 15:00:20,847 LOG Installing frappe
+2025-01-16 15:00:20,848 DEBUG cd /home/varoon/library && /home/varoon/library/env/bin/python -m pip install --quiet --upgrade -e /home/varoon/library/apps/frappe 
+2025-01-16 15:01:43,478 DEBUG cd /home/varoon/library/apps/frappe && yarn install --check-files
+2025-01-16 15:02:18,732 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-01-16 15:02:18,733 DEBUG cd library && bench build
+2025-01-16 15:02:19,219 INFO /usr/local/bin/bench build
+2025-01-16 15:03:15,710 LOG setting up backups
+2025-01-16 15:03:15,767 LOG backups were set up
+2025-01-16 15:03:15,768 INFO Bench library initialized
+2025-01-16 15:04:34,969 INFO /usr/local/bin/bench new-app library_management
+2025-01-16 15:04:34,983 LOG creating new app library_management
+2025-01-16 15:05:44,953 LOG Installing library_management
+2025-01-16 15:05:44,956 DEBUG cd /home/varoon/library && /home/varoon/library/env/bin/python -m pip install --quiet --upgrade -e /home/varoon/library/apps/library_management 
+2025-01-16 15:05:50,967 DEBUG bench build --app library_management
+2025-01-16 15:05:51,488 INFO /usr/local/bin/bench build --app library_management
+2025-01-16 15:05:59,206 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-01-16 15:08:04,211 INFO /usr/local/bin/bench new-site library.localhost
+2025-01-16 15:08:20,306 INFO /usr/local/bin/bench new-app library_management
+2025-01-16 15:08:20,319 LOG creating new app library_management
+2025-01-16 15:08:22,149 WARNING /usr/local/bin/bench new-app library_management executed with exit code 1
+2025-01-16 15:08:26,663 INFO /usr/local/bin/bench new-site library.localhost
+2025-01-16 15:08:47,905 INFO /usr/local/bin/bench new-site library.localhost
+2025-01-16 15:11:53,733 INFO /usr/local/bin/bench start
+2025-01-16 15:11:55,227 INFO /usr/local/bin/bench serve --port 8001
+2025-01-16 15:11:55,350 INFO /usr/local/bin/bench worker
+2025-01-16 15:11:55,451 INFO /usr/local/bin/bench watch
+2025-01-16 15:11:55,510 INFO /usr/local/bin/bench schedule
+2025-01-16 15:14:24,753 INFO /usr/local/bin/bench start
+2025-01-16 15:14:26,141 INFO /usr/local/bin/bench worker
+2025-01-16 15:14:26,216 INFO /usr/local/bin/bench schedule
+2025-01-16 15:14:26,390 INFO /usr/local/bin/bench watch
+2025-01-16 15:14:26,400 INFO /usr/local/bin/bench serve --port 8001
+2025-01-16 15:15:36,820 INFO /usr/local/bin/bench start
+2025-01-16 15:15:38,145 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 15:15:38,197 INFO /usr/local/bin/bench schedule
+2025-01-16 15:15:38,460 INFO /usr/local/bin/bench watch
+2025-01-16 15:15:38,529 INFO /usr/local/bin/bench worker
+2025-01-16 15:18:44,706 INFO /usr/local/bin/bench start
+2025-01-16 15:18:46,117 INFO /usr/local/bin/bench schedule
+2025-01-16 15:18:46,166 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 15:18:46,226 INFO /usr/local/bin/bench worker
+2025-01-16 15:18:46,479 INFO /usr/local/bin/bench watch
+2025-01-16 15:21:04,988 INFO /usr/local/bin/bench start
+2025-01-16 15:21:06,388 INFO /usr/local/bin/bench watch
+2025-01-16 15:21:06,441 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 15:21:06,493 INFO /usr/local/bin/bench worker
+2025-01-16 15:21:06,769 INFO /usr/local/bin/bench schedule
+2025-01-16 15:22:08,350 INFO /usr/local/bin/bench use library.localhost
+2025-01-16 15:22:30,236 INFO /usr/local/bin/bench start
+2025-01-16 15:22:31,698 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 15:22:31,766 INFO /usr/local/bin/bench worker
+2025-01-16 15:22:32,005 INFO /usr/local/bin/bench schedule
+2025-01-16 15:22:32,007 INFO /usr/local/bin/bench watch
+2025-01-16 15:25:02,416 INFO /usr/local/bin/bench --site library.localhost install-app library_management
+2025-01-16 15:25:28,332 INFO /usr/local/bin/bench --site library.localhost list-apps
+2025-01-16 15:25:45,292 INFO /usr/local/bin/bench start
+2025-01-16 15:25:46,932 INFO /usr/local/bin/bench schedule
+2025-01-16 15:25:46,975 INFO /usr/local/bin/bench worker
+2025-01-16 15:25:47,016 INFO /usr/local/bin/bench watch
+2025-01-16 15:25:47,138 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 15:31:41,893 INFO /usr/local/bin/bench --site library.localhost console
+2025-01-16 15:32:32,001 INFO /usr/local/bin/bench --site library.localhost mariadb
+2025-01-16 15:32:46,910 INFO /usr/local/bin/bench --site library.localhost backup
+2025-01-16 15:33:18,141 INFO /usr/local/bin/bench set-config -g developer_mode true
+2025-01-16 15:33:24,923 INFO /usr/local/bin/bench start
+2025-01-16 15:33:26,497 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 15:33:26,620 INFO /usr/local/bin/bench worker
+2025-01-16 15:33:26,662 INFO /usr/local/bin/bench schedule
+2025-01-16 15:33:26,689 INFO /usr/local/bin/bench watch
+2025-01-16 15:50:02,195 INFO /usr/local/bin/bench --site library.localhost mariadb
+2025-01-16 16:00:07,664 INFO /usr/local/bin/bench start
+2025-01-16 16:00:09,181 INFO /usr/local/bin/bench watch
+2025-01-16 16:00:09,257 INFO /usr/local/bin/bench schedule
+2025-01-16 16:00:09,414 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 16:00:09,525 INFO /usr/local/bin/bench worker
+2025-01-16 16:01:47,086 INFO /usr/local/bin/bench --site library.localhost mariadb
+2025-01-16 16:03:22,404 INFO /usr/local/bin/bench start
+2025-01-16 16:03:24,108 INFO /usr/local/bin/bench schedule
+2025-01-16 16:03:24,126 INFO /usr/local/bin/bench worker
+2025-01-16 16:03:24,254 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 16:03:24,342 INFO /usr/local/bin/bench watch
+2025-01-16 16:29:23,786 INFO /usr/local/bin/bench --site library.localhost mariadb
+2025-01-16 16:30:31,736 INFO /usr/local/bin/bench --site library.localhost mariadb
+2025-01-16 16:33:32,983 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-16 16:33:38,040 INFO /usr/local/bin/bench start
+2025-01-16 16:33:39,527 INFO /usr/local/bin/bench watch
+2025-01-16 16:33:39,610 INFO /usr/local/bin/bench worker
+2025-01-16 16:33:39,859 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 16:33:39,872 INFO /usr/local/bin/bench schedule
+2025-01-16 16:55:37,566 INFO /usr/local/bin/bench start
+2025-01-16 16:55:39,167 INFO /usr/local/bin/bench serve --port 8080
+2025-01-16 16:55:39,207 INFO /usr/local/bin/bench worker
+2025-01-16 16:55:39,228 INFO /usr/local/bin/bench watch
+2025-01-16 16:55:39,243 INFO /usr/local/bin/bench schedule
+2025-01-16 18:00:02,265 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-17 09:13:38,480 INFO /usr/local/bin/bench start
+2025-01-17 09:13:41,319 INFO /usr/local/bin/bench serve --port 8080
+2025-01-17 09:13:41,603 INFO /usr/local/bin/bench watch
+2025-01-17 09:13:41,693 INFO /usr/local/bin/bench worker
+2025-01-17 09:13:41,739 INFO /usr/local/bin/bench schedule
+2025-01-17 09:28:33,942 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-17 09:28:39,547 INFO /usr/local/bin/bench start
+2025-01-17 09:28:42,166 INFO /usr/local/bin/bench serve --port 8080
+2025-01-17 09:28:42,216 INFO /usr/local/bin/bench watch
+2025-01-17 09:28:42,462 INFO /usr/local/bin/bench schedule
+2025-01-17 09:28:43,341 INFO /usr/local/bin/bench worker
+2025-01-17 09:56:13,317 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-17 09:56:18,428 INFO /usr/local/bin/bench start
+2025-01-17 09:56:20,926 INFO /usr/local/bin/bench worker
+2025-01-17 09:56:20,990 INFO /usr/local/bin/bench watch
+2025-01-17 09:56:21,186 INFO /usr/local/bin/bench serve --port 8080
+2025-01-17 09:56:21,266 INFO /usr/local/bin/bench schedule
+2025-01-17 11:22:31,308 INFO /usr/local/bin/bench start
+2025-01-17 11:22:33,919 INFO /usr/local/bin/bench schedule
+2025-01-17 11:22:33,962 INFO /usr/local/bin/bench watch
+2025-01-17 11:22:33,979 INFO /usr/local/bin/bench serve --port 8080
+2025-01-17 11:22:34,021 INFO /usr/local/bin/bench worker
+2025-01-17 11:23:44,073 INFO /usr/local/bin/bench --version
+2025-01-17 11:57:37,245 INFO /usr/local/bin/bench start
+2025-01-17 11:57:39,294 INFO /usr/local/bin/bench serve --port 8080
+2025-01-17 11:57:39,403 INFO /usr/local/bin/bench schedule
+2025-01-17 11:57:39,405 INFO /usr/local/bin/bench watch
+2025-01-17 11:57:39,973 INFO /usr/local/bin/bench worker
+2025-01-17 12:00:03,164 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-17 12:07:27,732 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-17 12:07:34,007 INFO /usr/local/bin/bench start
+2025-01-17 12:07:36,308 INFO /usr/local/bin/bench watch
+2025-01-17 12:07:36,434 INFO /usr/local/bin/bench worker
+2025-01-17 12:07:36,606 INFO /usr/local/bin/bench serve --port 8080
+2025-01-17 12:07:36,743 INFO /usr/local/bin/bench schedule
+2025-01-17 14:15:53,252 INFO /usr/local/bin/bench --site library.localhost console
+2025-01-17 14:16:36,992 INFO /usr/local/bin/bench --site library.localhost mariadb
+2025-01-17 14:17:36,131 INFO /usr/local/bin/bench --site library.localhost backup
+2025-01-17 14:17:57,424 INFO /usr/local/bin/bench --help
+2025-01-17 14:33:00,840 INFO /usr/local/bin/bench start
+2025-01-17 14:33:03,208 INFO /usr/local/bin/bench serve --port 8080
+2025-01-17 14:33:03,395 INFO /usr/local/bin/bench worker
+2025-01-17 14:33:03,819 INFO /usr/local/bin/bench watch
+2025-01-17 14:33:03,849 INFO /usr/local/bin/bench schedule
+2025-01-17 14:41:02,454 INFO /usr/local/bin/bench start
+2025-01-17 14:41:04,849 INFO /usr/local/bin/bench worker
+2025-01-17 14:41:04,853 INFO /usr/local/bin/bench serve --port 8080
+2025-01-17 14:41:04,984 INFO /usr/local/bin/bench schedule
+2025-01-17 14:41:05,437 INFO /usr/local/bin/bench watch
+2025-01-17 14:51:57,564 INFO /usr/local/bin/bench restart
+2025-01-17 14:51:57,645 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-01-17 14:52:55,651 INFO /usr/local/bin/bench --site library.localhost mariadb
+2025-01-17 14:54:28,324 INFO /usr/local/bin/bench start
+2025-01-17 14:54:30,618 INFO /usr/local/bin/bench serve --port 8080
+2025-01-17 14:54:30,662 INFO /usr/local/bin/bench watch
+2025-01-17 14:54:30,732 INFO /usr/local/bin/bench worker
+2025-01-17 14:54:31,141 INFO /usr/local/bin/bench schedule
+2025-01-17 18:00:02,189 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-18 09:48:53,943 INFO /usr/local/bin/bench start
+2025-01-18 09:48:56,366 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 09:48:56,605 INFO /usr/local/bin/bench watch
+2025-01-18 09:48:56,866 INFO /usr/local/bin/bench worker
+2025-01-18 09:48:56,991 INFO /usr/local/bin/bench schedule
+2025-01-18 10:16:45,726 INFO /usr/local/bin/bench start
+2025-01-18 10:16:47,622 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 10:16:47,714 INFO /usr/local/bin/bench worker
+2025-01-18 10:16:47,842 INFO /usr/local/bin/bench schedule
+2025-01-18 10:16:48,005 INFO /usr/local/bin/bench watch
+2025-01-18 10:36:04,346 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-18 10:36:10,183 INFO /usr/local/bin/bench start
+2025-01-18 10:36:12,228 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 10:36:12,374 INFO /usr/local/bin/bench schedule
+2025-01-18 10:36:12,525 INFO /usr/local/bin/bench worker
+2025-01-18 10:36:12,564 INFO /usr/local/bin/bench watch
+2025-01-18 10:43:06,520 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-18 10:43:11,212 INFO /usr/local/bin/bench start
+2025-01-18 10:43:13,158 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 10:43:13,404 INFO /usr/local/bin/bench worker
+2025-01-18 10:43:13,459 INFO /usr/local/bin/bench watch
+2025-01-18 10:43:14,005 INFO /usr/local/bin/bench schedule
+2025-01-18 10:51:16,858 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-18 10:51:27,383 INFO /usr/local/bin/bench start
+2025-01-18 10:51:29,452 INFO /usr/local/bin/bench schedule
+2025-01-18 10:51:29,726 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 10:51:29,786 INFO /usr/local/bin/bench watch
+2025-01-18 10:51:29,993 INFO /usr/local/bin/bench worker
+2025-01-18 11:09:12,412 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-18 11:09:19,026 INFO /usr/local/bin/bench start
+2025-01-18 11:09:21,147 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 11:09:21,189 INFO /usr/local/bin/bench worker
+2025-01-18 11:09:21,373 INFO /usr/local/bin/bench schedule
+2025-01-18 11:09:21,506 INFO /usr/local/bin/bench watch
+2025-01-18 11:28:36,937 INFO /usr/local/bin/bench start
+2025-01-18 11:28:39,231 INFO /usr/local/bin/bench schedule
+2025-01-18 11:28:39,237 INFO /usr/local/bin/bench watch
+2025-01-18 11:28:39,237 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 11:28:39,326 INFO /usr/local/bin/bench worker
+2025-01-18 11:35:52,947 INFO /usr/local/bin/bench start
+2025-01-18 11:35:54,945 INFO /usr/local/bin/bench schedule
+2025-01-18 11:35:54,988 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 11:35:55,132 INFO /usr/local/bin/bench watch
+2025-01-18 11:35:55,285 INFO /usr/local/bin/bench worker
+2025-01-18 11:48:29,320 INFO /usr/local/bin/bench start
+2025-01-18 11:48:31,390 INFO /usr/local/bin/bench worker
+2025-01-18 11:48:31,730 INFO /usr/local/bin/bench watch
+2025-01-18 11:48:31,891 INFO /usr/local/bin/bench schedule
+2025-01-18 11:48:31,940 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 12:00:03,084 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-18 12:02:13,350 INFO /usr/local/bin/bench start
+2025-01-18 12:02:15,676 INFO /usr/local/bin/bench watch
+2025-01-18 12:02:15,701 INFO /usr/local/bin/bench worker
+2025-01-18 12:02:15,738 INFO /usr/local/bin/bench schedule
+2025-01-18 12:02:16,200 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 12:31:22,278 INFO /usr/local/bin/bench clear-cache
+2025-01-18 12:31:34,555 INFO /usr/local/bin/bench start
+2025-01-18 12:31:36,640 INFO /usr/local/bin/bench schedule
+2025-01-18 12:31:36,706 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 12:31:36,993 INFO /usr/local/bin/bench watch
+2025-01-18 12:31:37,097 INFO /usr/local/bin/bench worker
+2025-01-18 12:42:25,964 INFO /usr/local/bin/bench clear-cache
+2025-01-18 12:43:50,519 INFO /usr/local/bin/bench start
+2025-01-18 12:43:52,555 INFO /usr/local/bin/bench schedule
+2025-01-18 12:43:52,568 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 12:43:52,709 INFO /usr/local/bin/bench worker
+2025-01-18 12:43:52,752 INFO /usr/local/bin/bench watch
+2025-01-18 13:48:28,767 INFO /usr/local/bin/bench start
+2025-01-18 13:48:30,824 INFO /usr/local/bin/bench watch
+2025-01-18 13:48:30,972 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 13:48:30,985 INFO /usr/local/bin/bench schedule
+2025-01-18 13:48:31,057 INFO /usr/local/bin/bench worker
+2025-01-18 13:56:33,794 INFO /usr/local/bin/bench start
+2025-01-18 13:56:35,657 INFO /usr/local/bin/bench schedule
+2025-01-18 13:56:35,761 INFO /usr/local/bin/bench watch
+2025-01-18 13:56:35,918 INFO /usr/local/bin/bench worker
+2025-01-18 13:56:36,308 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 14:07:31,957 INFO /usr/local/bin/bench start
+2025-01-18 14:07:33,806 INFO /usr/local/bin/bench worker
+2025-01-18 14:07:33,924 INFO /usr/local/bin/bench watch
+2025-01-18 14:07:34,012 INFO /usr/local/bin/bench schedule
+2025-01-18 14:07:34,137 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 14:33:41,723 INFO /usr/local/bin/bench build
+2025-01-18 14:34:40,130 INFO /usr/local/bin/bench start
+2025-01-18 14:34:42,090 INFO /usr/local/bin/bench schedule
+2025-01-18 14:34:42,284 INFO /usr/local/bin/bench worker
+2025-01-18 14:34:42,363 INFO /usr/local/bin/bench serve --port 8080
+2025-01-18 14:34:42,511 INFO /usr/local/bin/bench watch
+2025-01-20 09:12:57,093 INFO /usr/local/bin/bench start
+2025-01-20 09:12:59,086 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 09:12:59,094 INFO /usr/local/bin/bench watch
+2025-01-20 09:12:59,179 INFO /usr/local/bin/bench schedule
+2025-01-20 09:12:59,236 INFO /usr/local/bin/bench worker
+2025-01-20 09:52:31,111 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-20 09:52:37,698 INFO /usr/local/bin/bench start
+2025-01-20 09:52:39,031 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 09:52:39,178 INFO /usr/local/bin/bench schedule
+2025-01-20 09:52:39,194 INFO /usr/local/bin/bench worker
+2025-01-20 09:52:39,333 INFO /usr/local/bin/bench watch
+2025-01-20 10:18:24,364 INFO /usr/local/bin/bench start
+2025-01-20 10:18:25,864 INFO /usr/local/bin/bench watch
+2025-01-20 10:18:25,906 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 10:18:25,936 INFO /usr/local/bin/bench schedule
+2025-01-20 10:18:26,104 INFO /usr/local/bin/bench worker
+2025-01-20 11:52:12,490 INFO /usr/local/bin/bench clear-cache
+2025-01-20 11:52:20,028 INFO /usr/local/bin/bench start
+2025-01-20 11:52:21,398 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 11:52:21,469 INFO /usr/local/bin/bench watch
+2025-01-20 11:52:21,623 INFO /usr/local/bin/bench schedule
+2025-01-20 11:52:21,700 INFO /usr/local/bin/bench worker
+2025-01-20 12:00:01,820 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-20 12:46:06,704 INFO /usr/local/bin/bench start
+2025-01-20 12:46:08,213 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 12:46:08,294 INFO /usr/local/bin/bench schedule
+2025-01-20 12:46:08,312 INFO /usr/local/bin/bench worker
+2025-01-20 12:46:08,356 INFO /usr/local/bin/bench watch
+2025-01-20 14:13:36,987 INFO /usr/local/bin/bench --site library.localhost mariadb
+2025-01-20 14:59:08,859 INFO /usr/local/bin/bench start
+2025-01-20 14:59:10,092 INFO /usr/local/bin/bench watch
+2025-01-20 14:59:10,136 INFO /usr/local/bin/bench worker
+2025-01-20 14:59:10,283 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 14:59:10,346 INFO /usr/local/bin/bench schedule
+2025-01-20 15:09:07,677 INFO /usr/local/bin/bench clear-cache
+2025-01-20 15:09:18,020 INFO /usr/local/bin/bench start
+2025-01-20 15:09:19,249 INFO /usr/local/bin/bench schedule
+2025-01-20 15:09:19,293 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 15:09:19,308 INFO /usr/local/bin/bench worker
+2025-01-20 15:09:19,554 INFO /usr/local/bin/bench watch
+2025-01-20 15:47:11,025 INFO /usr/local/bin/bench --site library.localhost
+2025-01-20 15:47:21,155 INFO /usr/local/bin/bench --site library.localhost migrate
+2025-01-20 16:38:20,362 INFO /usr/local/bin/bench start
+2025-01-20 16:38:22,677 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 16:38:22,745 INFO /usr/local/bin/bench schedule
+2025-01-20 16:38:22,999 INFO /usr/local/bin/bench watch
+2025-01-20 16:38:23,035 INFO /usr/local/bin/bench worker
+2025-01-20 16:41:41,271 INFO /usr/local/bin/bench start
+2025-01-20 16:41:42,828 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 16:41:42,865 INFO /usr/local/bin/bench watch
+2025-01-20 16:41:43,196 INFO /usr/local/bin/bench schedule
+2025-01-20 16:41:43,263 INFO /usr/local/bin/bench worker
+2025-01-20 17:25:24,459 INFO /usr/local/bin/bench start
+2025-01-20 17:25:26,073 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 17:25:26,075 INFO /usr/local/bin/bench worker
+2025-01-20 17:25:26,339 INFO /usr/local/bin/bench schedule
+2025-01-20 17:25:26,421 INFO /usr/local/bin/bench watch
+2025-01-20 17:39:24,384 INFO /usr/local/bin/bench start
+2025-01-20 17:39:25,973 INFO /usr/local/bin/bench worker
+2025-01-20 17:39:26,012 INFO /usr/local/bin/bench watch
+2025-01-20 17:39:26,149 INFO /usr/local/bin/bench serve --port 8080
+2025-01-20 17:39:26,271 INFO /usr/local/bin/bench schedule
+2025-01-20 18:00:02,322 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-21 09:17:46,552 INFO /usr/local/bin/bench start
+2025-01-21 09:17:48,729 INFO /usr/local/bin/bench watch
+2025-01-21 09:17:48,767 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 09:17:48,861 INFO /usr/local/bin/bench worker
+2025-01-21 09:17:48,923 INFO /usr/local/bin/bench schedule
+2025-01-21 09:29:23,407 INFO /usr/local/bin/bench clear-cache
+2025-01-21 09:29:45,855 INFO /usr/local/bin/bench set-config -g server_script_enabled true
+2025-01-21 09:30:05,585 INFO /usr/local/bin/bench start
+2025-01-21 09:30:07,348 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 09:30:07,369 INFO /usr/local/bin/bench worker
+2025-01-21 09:30:07,397 INFO /usr/local/bin/bench watch
+2025-01-21 09:30:07,440 INFO /usr/local/bin/bench schedule
+2025-01-21 09:39:40,383 INFO /usr/local/bin/bench --site library.localhost clear-cache
+2025-01-21 09:40:08,296 INFO /usr/local/bin/bench --site library.localhost reload-doc library_management library_management doctype member
+2025-01-21 09:40:26,073 INFO /usr/local/bin/bench --site library.localhost reload-doc
+2025-01-21 09:40:39,353 INFO /usr/local/bin/bench --site library.localhost reload-doc library_management
+2025-01-21 09:40:50,027 INFO /usr/local/bin/bench --site library.localhost reload-doc library_management member
+2025-01-21 09:41:29,118 INFO /usr/local/bin/bench --site library.localhost migrate
+2025-01-21 09:41:40,551 INFO /usr/local/bin/bench start
+2025-01-21 09:41:42,307 INFO /usr/local/bin/bench worker
+2025-01-21 09:41:42,319 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 09:41:42,349 INFO /usr/local/bin/bench schedule
+2025-01-21 09:41:42,410 INFO /usr/local/bin/bench watch
+2025-01-21 09:48:27,291 INFO /usr/local/bin/bench --site library.localhost clear-cache
+2025-01-21 09:48:34,156 INFO /usr/local/bin/bench start
+2025-01-21 09:48:35,808 INFO /usr/local/bin/bench schedule
+2025-01-21 09:48:35,903 INFO /usr/local/bin/bench watch
+2025-01-21 09:48:35,991 INFO /usr/local/bin/bench worker
+2025-01-21 09:48:36,174 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 09:55:50,440 INFO /usr/local/bin/bench --site library.localhost clear-cache
+2025-01-21 09:55:58,160 INFO /usr/local/bin/bench --site your-site-name clear-website-cache
+2025-01-21 09:56:29,298 INFO /usr/local/bin/bench --site library.localhost clear-website-cache
+2025-01-21 09:56:37,269 INFO /usr/local/bin/bench start
+2025-01-21 09:56:39,116 INFO /usr/local/bin/bench worker
+2025-01-21 09:56:39,129 INFO /usr/local/bin/bench watch
+2025-01-21 09:56:39,157 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 09:56:39,193 INFO /usr/local/bin/bench schedule
+2025-01-21 10:00:34,662 INFO /usr/local/bin/bench --site library.localhost clear-cache
+2025-01-21 10:01:56,381 INFO /usr/local/bin/bench start
+2025-01-21 10:01:58,121 INFO /usr/local/bin/bench watch
+2025-01-21 10:01:58,198 INFO /usr/local/bin/bench schedule
+2025-01-21 10:01:58,247 INFO /usr/local/bin/bench worker
+2025-01-21 10:01:58,308 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 10:26:33,034 INFO /usr/local/bin/bench clear-cache
+2025-01-21 10:26:40,549 INFO /usr/local/bin/bench --site library.localhost clear-cache
+2025-01-21 10:26:49,365 INFO /usr/local/bin/bench start
+2025-01-21 10:26:51,297 INFO /usr/local/bin/bench watch
+2025-01-21 10:26:51,353 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 10:26:51,430 INFO /usr/local/bin/bench schedule
+2025-01-21 10:26:51,515 INFO /usr/local/bin/bench worker
+2025-01-21 10:29:09,168 INFO /usr/local/bin/bench clear-cache
+2025-01-21 10:29:15,082 INFO /usr/local/bin/bench --site library.localhost clear-cache
+2025-01-21 10:29:22,135 INFO /usr/local/bin/bench start
+2025-01-21 10:29:23,845 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 10:29:23,905 INFO /usr/local/bin/bench watch
+2025-01-21 10:29:24,145 INFO /usr/local/bin/bench worker
+2025-01-21 10:29:26,088 INFO /usr/local/bin/bench schedule
+2025-01-21 10:32:23,948 INFO /usr/local/bin/bench start
+2025-01-21 10:32:25,724 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 10:32:25,782 INFO /usr/local/bin/bench watch
+2025-01-21 10:32:25,789 INFO /usr/local/bin/bench worker
+2025-01-21 10:32:26,024 INFO /usr/local/bin/bench schedule
+2025-01-21 10:59:14,091 INFO /usr/local/bin/bench start
+2025-01-21 10:59:16,022 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 10:59:16,066 INFO /usr/local/bin/bench worker
+2025-01-21 10:59:16,355 INFO /usr/local/bin/bench watch
+2025-01-21 10:59:16,448 INFO /usr/local/bin/bench schedule
+2025-01-21 11:24:03,884 INFO /usr/local/bin/bench clear-cache
+2025-01-21 11:24:10,427 INFO /usr/local/bin/bench start
+2025-01-21 11:24:12,131 INFO /usr/local/bin/bench schedule
+2025-01-21 11:24:12,236 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 11:24:12,378 INFO /usr/local/bin/bench worker
+2025-01-21 11:24:12,423 INFO /usr/local/bin/bench watch
+2025-01-21 11:35:37,917 INFO /usr/local/bin/bench start
+2025-01-21 11:35:39,741 INFO /usr/local/bin/bench worker
+2025-01-21 11:35:39,758 INFO /usr/local/bin/bench schedule
+2025-01-21 11:35:39,776 INFO /usr/local/bin/bench serve --port 8080
+2025-01-21 11:35:39,846 INFO /usr/local/bin/bench watch
+2025-01-21 12:00:02,201 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-21 18:00:02,447 INFO /usr/local/bin/bench --verbose --site all backup

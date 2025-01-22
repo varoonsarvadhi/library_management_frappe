@@ -1,0 +1,729 @@
+2025-01-20 12:21:04,590 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `quantity` int NOT NULL DEFAULT 0, MODIFY `times_issued` int NOT NULL DEFAULT 0
+2025-01-20 12:22:51,720 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssue Book` MODIFY `issue_no` int NOT NULL DEFAULT 0
+2025-01-20 12:27:45,102 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `times_issued` int NOT NULL DEFAULT 0, MODIFY `quantity` int NOT NULL DEFAULT 0
+2025-01-20 14:04:06,477 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssue Book` MODIFY `issue_no` int NOT NULL DEFAULT 0
+2025-01-20 14:04:13,464 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssue Book` MODIFY `issue_no` int NOT NULL DEFAULT 0
+2025-01-20 14:04:41,928 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `books_issued` int NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-01-20 14:05:42,522 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks` MODIFY `quantity` int NOT NULL DEFAULT 0, MODIFY `times_issued` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-01-20 14:47:43,393 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `times_issued` int NOT NULL DEFAULT 0, MODIFY `quantity` int NOT NULL DEFAULT 0
+2025-01-20 15:43:24,120 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `times_issued` int NOT NULL DEFAULT 0, MODIFY `quantity` int NOT NULL DEFAULT 0
+2025-01-20 15:47:23,375 WARNING database DDL Query made to DB:
+alter table `tabDocType` add column if not exists migration_hash varchar(140)
+2025-01-20 15:47:26,444 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssue Book` MODIFY `issue_no` int NOT NULL DEFAULT 0
+2025-01-20 15:47:26,767 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks` MODIFY `quantity` int NOT NULL DEFAULT 0, MODIFY `times_issued` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-01-20 15:47:27,111 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `books_issued` int NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-01-20 16:49:32,050 WARNING database DDL Query made to DB:
+create table `tabIssued_Book` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-01-20 16:50:42,802 WARNING database DDL Query made to DB:
+alter table `tabIssued_Book` add column if not exists parent varchar(140)
+2025-01-20 16:50:42,805 WARNING database DDL Query made to DB:
+alter table `tabIssued_Book` add column if not exists parenttype varchar(140)
+2025-01-20 16:50:42,807 WARNING database DDL Query made to DB:
+alter table `tabIssued_Book` add column if not exists parentfield varchar(140)
+2025-01-20 16:50:43,071 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Book` ADD COLUMN `book` varchar(140)
+2025-01-20 16:51:24,291 WARNING database DDL Query made to DB:
+alter table `tabIssued_Book` add column if not exists parent varchar(140)
+2025-01-20 16:51:24,293 WARNING database DDL Query made to DB:
+alter table `tabIssued_Book` add column if not exists parenttype varchar(140)
+2025-01-20 16:51:24,295 WARNING database DDL Query made to DB:
+alter table `tabIssued_Book` add column if not exists parentfield varchar(140)
+2025-01-20 16:51:24,634 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Book` ADD COLUMN `book_title` varchar(140)
+2025-01-20 17:20:23,231 WARNING database DDL Query made to DB:
+create table `tabIssued Books` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-01-20 17:20:45,999 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parent varchar(140)
+2025-01-20 17:20:46,002 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parenttype varchar(140)
+2025-01-20 17:20:46,004 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parentfield varchar(140)
+2025-01-20 17:20:46,263 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued Books` ADD COLUMN `book` varchar(140)
+2025-01-20 17:21:43,938 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parent varchar(140)
+2025-01-20 17:21:43,941 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parenttype varchar(140)
+2025-01-20 17:21:43,944 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parentfield varchar(140)
+2025-01-20 17:21:44,250 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued Books` ADD COLUMN `issue_id` varchar(140), ADD COLUMN `issue_date` varchar(140)
+2025-01-20 17:22:04,759 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parent varchar(140)
+2025-01-20 17:22:04,762 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parenttype varchar(140)
+2025-01-20 17:22:04,765 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parentfield varchar(140)
+2025-01-20 17:22:16,942 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parent varchar(140)
+2025-01-20 17:22:16,944 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parenttype varchar(140)
+2025-01-20 17:22:16,946 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parentfield varchar(140)
+2025-01-20 17:22:17,219 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued Books` ADD COLUMN `status` varchar(140)
+2025-01-20 17:22:31,572 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parent varchar(140)
+2025-01-20 17:22:31,575 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parenttype varchar(140)
+2025-01-20 17:22:31,577 WARNING database DDL Query made to DB:
+alter table `tabIssued Books` add column if not exists parentfield varchar(140)
+2025-01-20 17:27:27,404 WARNING database DDL Query made to DB:
+create table `tabIssued_Books` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-01-20 17:27:54,198 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parent varchar(140)
+2025-01-20 17:27:54,202 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parenttype varchar(140)
+2025-01-20 17:27:54,206 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parentfield varchar(140)
+2025-01-20 17:27:54,660 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books` ADD COLUMN `book` varchar(140)
+2025-01-20 17:28:17,557 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parent varchar(140)
+2025-01-20 17:28:17,560 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parenttype varchar(140)
+2025-01-20 17:28:17,564 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parentfield varchar(140)
+2025-01-20 17:28:17,920 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books` ADD COLUMN `issue_id` varchar(140)
+2025-01-20 17:28:43,939 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parent varchar(140)
+2025-01-20 17:28:43,941 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parenttype varchar(140)
+2025-01-20 17:28:43,944 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parentfield varchar(140)
+2025-01-20 17:28:44,224 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books` ADD COLUMN `issue_date` varchar(140)
+2025-01-20 17:29:11,772 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parent varchar(140)
+2025-01-20 17:29:11,775 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parenttype varchar(140)
+2025-01-20 17:29:11,778 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books` add column if not exists parentfield varchar(140)
+2025-01-20 17:29:12,138 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books` ADD COLUMN `status` varchar(140)
+2025-01-20 17:35:15,772 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-20 17:48:05,734 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-20 18:10:01,463 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `books_issued` int NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-01-21 09:23:45,781 WARNING database DDL Query made to DB:
+create table `tabIssued_Books_Child` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-01-21 09:24:13,657 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:24:13,660 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:24:13,662 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:24:13,929 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` ADD COLUMN `book` varchar(140)
+2025-01-21 09:24:43,543 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:24:43,545 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:24:43,547 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:24:43,790 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` ADD COLUMN `book_title` varchar(140)
+2025-01-21 09:25:15,112 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:25:15,115 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:25:15,118 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:25:15,397 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` ADD COLUMN `issue_id` varchar(140)
+2025-01-21 09:25:36,385 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:25:36,387 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:25:36,389 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:25:36,640 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` ADD COLUMN `issue_date` date
+2025-01-21 09:25:51,399 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:25:51,405 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:25:51,407 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:26:18,626 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:26:18,629 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:26:18,631 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:26:18,889 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` ADD COLUMN `status` varchar(140)
+2025-01-21 09:35:17,233 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-21 09:35:30,655 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-21 09:36:10,066 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:36:10,068 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:36:10,070 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:36:19,307 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:36:19,309 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:36:19,311 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:36:33,909 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:36:33,912 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:36:33,914 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:45:24,648 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:45:24,651 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:45:24,653 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:45:32,614 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:45:32,616 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:45:32,618 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:45:42,498 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:45:42,500 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:45:42,501 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:45:50,149 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:45:50,151 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:45:50,153 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 09:45:57,233 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 09:45:57,235 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 09:45:57,236 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:12:37,865 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:12:37,868 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:12:37,870 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:12:55,812 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:12:55,814 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:12:55,817 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:18:52,159 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:18:52,161 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:18:52,164 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:18:52,520 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` ADD COLUMN `return_date` varchar(140)
+2025-01-21 10:19:07,079 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:19:07,081 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:19:07,083 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:19:50,627 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:19:50,629 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:19:50,631 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:22:28,790 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:22:28,793 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:22:28,795 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:22:35,704 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:22:35,706 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:22:35,709 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:23:05,005 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:23:05,007 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:23:05,010 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:23:05,321 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` ADD COLUMN `return` varchar(140)
+2025-01-21 10:23:20,373 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:23:20,375 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:23:20,378 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:23:36,709 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:23:36,711 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:23:36,713 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:28:24,201 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:28:24,202 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:28:24,204 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:28:24,481 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` MODIFY `return_date` date
+2025-01-21 10:31:23,663 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:31:23,667 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:31:23,670 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:34:01,757 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:34:01,759 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:34:01,761 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:34:09,835 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:34:09,837 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:34:09,838 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:34:19,880 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:34:19,884 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:34:19,888 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:34:28,439 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:34:28,442 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:34:28,444 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:34:37,683 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:34:37,685 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:34:37,687 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:35:41,286 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `books_issued` int NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-01-21 10:38:14,917 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:38:14,919 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:38:14,921 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:54:30,019 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:54:30,022 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:54:30,023 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:54:44,790 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:54:44,793 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:54:44,795 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:54:45,062 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` ADD COLUMN `author` varchar(140)
+2025-01-21 10:54:58,412 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:54:58,413 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:54:58,415 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:55:30,889 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:55:30,892 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:55:30,894 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:55:31,172 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssued_Books_Child` ADD COLUMN `issue` varchar(140)
+2025-01-21 10:55:44,141 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:55:44,144 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:55:44,146 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:55:50,173 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:55:50,175 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:55:50,178 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:56:27,587 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:56:27,589 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:56:27,591 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:56:58,798 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:56:58,800 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:56:58,802 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:57:20,927 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 10:57:20,930 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 10:57:20,932 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 10:58:02,822 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-21 11:02:38,616 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-21 11:05:25,128 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:05:25,128 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:05:25,131 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:05:25,131 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:05:25,135 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:05:25,135 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:05:47,719 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:05:47,719 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:05:47,723 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:05:47,723 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:05:47,726 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:05:47,726 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:06:06,686 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:06:06,686 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:06:06,689 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:06:06,689 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:06:06,692 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:06:06,692 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:06:25,083 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:06:25,083 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:06:25,086 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:06:25,086 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:06:25,089 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:06:25,089 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:08:14,849 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:08:14,849 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:08:14,852 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:08:14,852 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:08:14,854 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:08:14,854 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:09:01,080 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-21 11:09:01,080 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-21 11:12:12,060 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:12:12,060 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parent varchar(140)
+2025-01-21 11:12:12,063 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:12:12,063 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parenttype varchar(140)
+2025-01-21 11:12:12,066 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:12:12,066 WARNING database DDL Query made to DB:
+alter table `tabIssued_Books_Child` add column if not exists parentfield varchar(140)
+2025-01-21 11:15:45,746 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `books_issued` int NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-01-21 11:15:45,746 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `books_issued` int NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2025-01-21 11:17:09,199 WARNING database DDL Query made to DB:
+create table `tabBooks_Issued` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-01-21 11:17:09,199 WARNING database DDL Query made to DB:
+create table `tabBooks_Issued` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-01-21 11:17:43,500 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parent varchar(140)
+2025-01-21 11:17:43,500 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parent varchar(140)
+2025-01-21 11:17:43,503 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parenttype varchar(140)
+2025-01-21 11:17:43,503 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parenttype varchar(140)
+2025-01-21 11:17:43,507 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parentfield varchar(140)
+2025-01-21 11:17:43,507 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parentfield varchar(140)
+2025-01-21 11:17:43,804 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks_Issued` ADD COLUMN `book` varchar(140)
+2025-01-21 11:17:43,804 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks_Issued` ADD COLUMN `book` varchar(140)
+2025-01-21 11:19:16,053 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parent varchar(140)
+2025-01-21 11:19:16,053 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parent varchar(140)
+2025-01-21 11:19:16,056 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parenttype varchar(140)
+2025-01-21 11:19:16,056 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parenttype varchar(140)
+2025-01-21 11:19:16,058 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parentfield varchar(140)
+2025-01-21 11:19:16,058 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parentfield varchar(140)
+2025-01-21 11:19:16,301 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks_Issued` ADD COLUMN `book_title` varchar(140)
+2025-01-21 11:19:16,301 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks_Issued` ADD COLUMN `book_title` varchar(140)
+2025-01-21 11:19:41,502 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parent varchar(140)
+2025-01-21 11:19:41,502 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parent varchar(140)
+2025-01-21 11:19:41,505 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parenttype varchar(140)
+2025-01-21 11:19:41,505 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parenttype varchar(140)
+2025-01-21 11:19:41,507 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parentfield varchar(140)
+2025-01-21 11:19:41,507 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parentfield varchar(140)
+2025-01-21 11:19:41,753 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks_Issued` ADD COLUMN `author` varchar(140)
+2025-01-21 11:19:41,753 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks_Issued` ADD COLUMN `author` varchar(140)
+2025-01-21 11:20:34,214 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parent varchar(140)
+2025-01-21 11:20:34,214 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parent varchar(140)
+2025-01-21 11:20:34,217 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parenttype varchar(140)
+2025-01-21 11:20:34,217 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parenttype varchar(140)
+2025-01-21 11:20:34,220 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parentfield varchar(140)
+2025-01-21 11:20:34,220 WARNING database DDL Query made to DB:
+alter table `tabBooks_Issued` add column if not exists parentfield varchar(140)
+2025-01-21 11:20:34,515 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks_Issued` ADD COLUMN `issue_date` date, ADD COLUMN `return_date` date, ADD COLUMN `status` varchar(140)
+2025-01-21 11:20:34,515 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBooks_Issued` ADD COLUMN `issue_date` date, ADD COLUMN `return_date` date, ADD COLUMN `status` varchar(140)
+2025-01-21 11:39:14,155 WARNING database DDL Query made to DB:
+create table `tabMember_Books` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-01-21 11:39:30,749 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parent varchar(140)
+2025-01-21 11:39:30,752 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parenttype varchar(140)
+2025-01-21 11:39:30,754 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parentfield varchar(140)
+2025-01-21 11:39:31,053 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember_Books` ADD COLUMN `book` varchar(140)
+2025-01-21 11:40:02,994 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parent varchar(140)
+2025-01-21 11:40:02,997 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parenttype varchar(140)
+2025-01-21 11:40:02,998 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parentfield varchar(140)
+2025-01-21 11:40:03,228 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember_Books` ADD COLUMN `book_title` varchar(140)
+2025-01-21 11:40:16,621 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parent varchar(140)
+2025-01-21 11:40:16,624 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parenttype varchar(140)
+2025-01-21 11:40:16,625 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parentfield varchar(140)
+2025-01-21 11:40:35,174 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parent varchar(140)
+2025-01-21 11:40:35,176 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parenttype varchar(140)
+2025-01-21 11:40:35,181 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parentfield varchar(140)
+2025-01-21 11:40:35,455 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember_Books` ADD COLUMN `author` varchar(140)
+2025-01-21 11:41:08,832 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parent varchar(140)
+2025-01-21 11:41:08,836 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parenttype varchar(140)
+2025-01-21 11:41:08,838 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parentfield varchar(140)
+2025-01-21 11:41:09,260 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember_Books` ADD COLUMN `issue_id` varchar(140)
+2025-01-21 11:41:23,003 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parent varchar(140)
+2025-01-21 11:41:23,006 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parenttype varchar(140)
+2025-01-21 11:41:23,008 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parentfield varchar(140)
+2025-01-21 11:41:23,287 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember_Books` ADD COLUMN `issue_date` varchar(140)
+2025-01-21 11:42:41,532 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parent varchar(140)
+2025-01-21 11:42:41,535 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parenttype varchar(140)
+2025-01-21 11:42:41,537 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parentfield varchar(140)
+2025-01-21 11:42:41,843 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember_Books` ADD COLUMN `return_id` varchar(140), ADD COLUMN `return_date` date
+2025-01-21 11:42:41,923 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember_Books` MODIFY `issue_date` date
+2025-01-21 11:43:07,654 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parent varchar(140)
+2025-01-21 11:43:07,657 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parenttype varchar(140)
+2025-01-21 11:43:07,659 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parentfield varchar(140)
+2025-01-21 11:48:37,062 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-21 11:50:04,494 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `books_issued` int NOT NULL DEFAULT 0
+2025-01-21 11:50:44,402 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parent varchar(140)
+2025-01-21 11:50:44,405 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parenttype varchar(140)
+2025-01-21 11:50:44,407 WARNING database DDL Query made to DB:
+alter table `tabMember_Books` add column if not exists parentfield varchar(140)
+2025-01-21 11:57:56,433 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMember` MODIFY `books_issued` int NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
